@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/chat")
-@CrossOrigin(origins = {"http://localhost:3000", "https://chatbot-cat-ia.vercel.app"}
+@CrossOrigin(origins = {"http://localhost:3000", "https://chatbot-cat-ia.vercel.app"})
 public class ChatbotController {
   @Autowired
   private iChatbotService chatbotService;
